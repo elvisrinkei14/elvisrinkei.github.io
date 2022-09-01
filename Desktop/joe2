@@ -1,0 +1,69 @@
+@moringa-ThinkPad-T450:~$ cd Documents
+moringa@moringa-ThinkPad-T450:~/Documents$ mkdir project1 project2
+moringa@mormoringainga-ThinkPad-T450:~/Documents$ touch day1.html day2.html
+moringa@moringa-ThinkPad-T450:~/Documents$ mv day1.html project1
+moringa@moringa-ThinkPad-T450:~/Documents$ ls
+day2.html  elvis.html  insert  project1  project2  wewe
+moringa@moringa-ThinkPad-T450:~/Documents$ cd project1
+moringa@moringa-ThinkPad-T450:~/Documents/project1$ ls
+day1.html
+moringa@moringa-ThinkPad-T450:~/Documents/project1$ cd
+moringa@moringa-ThinkPad-T450:~$ cd Documents/project1
+moringa@moringa-ThinkPad-T450:~/Documents/project1$ cd ..
+moringa@moringa-ThinkPad-T450:~/Documents$ mv day2.html ~/Downloads
+moringa@moringa-ThinkPad-T450:~/Documents$ ls
+elvis.html  insert  project1  project2  wewe
+moringa@moringa-ThinkPad-T450:~/Documents$ cd Downloads
+bash: cd: Downloads: No such file or directory
+moringa@moringa-ThinkPad-T450:~/Documents$ cd ~/Downloads
+moringa@moringa-ThinkPad-T450:~/Downloads$ ls
+'code_1.70.2-1660629410_amd64(1).deb'
+ code_1.70.2-1660629410_amd64.deb
+ code_1.70.2-1660629410_amd64.deb.part
+ day2.html
+ filename
+ git-2.6.2-intel-universal-mavericks.dmg
+ google-chrome-stable_current_amd64.deb
+ images2
+ joe
+ slack-desktop-4.27.156-amd64.deb
+moringa@moringa-ThinkPad-T450:~/Downloads$ new
+
+Command 'new' not found, but can be installed with:
+
+sudo apt install mmh  # version 0.4-2, or
+sudo apt install nmh  # version 1.7.1-6
+
+moringa@moringa-ThinkPad-T450:~/Downloads$ cd ~/Documents
+moringa@moringa-ThinkPad-T450:~/Documents$ cd ~/Documents project1
+bash: cd: too many arguments
+moringa@moringa-ThinkPad-T450:~/Documents$ cd Documents/project1
+bash: cd: Documents/project1: No such file or directory
+moringa@moringa-ThinkPad-T450:~/Documents$ cd ~/Documents/project1
+moringa@moringa-ThinkPad-T450:~/Documents/project1$ ls
+day1.html
+moringa@moringa-ThinkPad-T450:~/Documents/project1$ git init
+Initialized empty Git repository in /home/moringa/Documents/project1/.git/
+moringa@moringa-ThinkPad-T450:~/Documents/project1$ git remote add origin git@github.com:elvisrinkei14/my-first-project.git
+moringa@moringa-ThinkPad-T450:~/Documents/project1$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	day1.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+moringa@moringa-ThinkPad-T450:~/Documents/project1$ git add day1.html
+moringa@moringa-ThinkPad-T450:~/Documents/project1$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	new file:   day1.html
+
+moringa@moringa-ThinkPad-T450:~/Documents/project1$ git commit -m "initial comit
+
